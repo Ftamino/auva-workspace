@@ -28,6 +28,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.auva.init.AuvaModParticleTypes;
 import net.mcreator.auva.init.AuvaModItems;
+import net.mcreator.auva.init.AuvaModBlocks;
+import net.mcreator.auva.init.AuvaModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,8 +47,10 @@ public class AuvaMod {
 	public AuvaMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		AuvaModBlocks.REGISTRY.register(bus);
 		AuvaModItems.REGISTRY.register(bus);
+
+		AuvaModBlockEntities.REGISTRY.register(bus);
 
 		AuvaModParticleTypes.REGISTRY.register(bus);
 	}

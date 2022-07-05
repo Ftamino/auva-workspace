@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "auva:block/rune_table_block"
+    }
+  }
+}

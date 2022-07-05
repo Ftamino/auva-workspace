@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auva:blocks/runeblockdown",
+    "up": "auva:blocks/runetabletop",
+    "north": "auva:blocks/runetableside",
+    "east": "auva:blocks/runetableside",
+    "south": "auva:blocks/runetableside",
+    "west": "auva:blocks/runetableside",
+    "particle": "auva:blocks/runeblockdown"
+  }
+}

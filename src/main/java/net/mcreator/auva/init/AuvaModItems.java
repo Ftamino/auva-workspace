@@ -8,7 +8,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.auva.item.UpgradeArmorProtectionItemItem;
 import net.mcreator.auva.item.NetheriteUpgradableArmorItem;
@@ -30,4 +33,9 @@ public class AuvaModItems {
 			() -> new UpgradeArmorProtectionItemItem());
 	public static final RegistryObject<Item> FLYING_RUNE = REGISTRY.register("flying_rune", () -> new FlyingRuneItem());
 	public static final RegistryObject<Item> FALL_PROTECTION_RUNE = REGISTRY.register("fall_protection_rune", () -> new FallProtectionRuneItem());
+	public static final RegistryObject<Item> RUNE_TABLE_BLOCK = block(AuvaModBlocks.RUNE_TABLE_BLOCK, CreativeModeTab.TAB_MISC);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }

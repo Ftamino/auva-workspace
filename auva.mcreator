@@ -232,6 +232,41 @@
       "locked_code": false,
       "registry_name": "rune_table_gui",
       "path": "~/Rune Table"
+    },
+    {
+      "name": "RuneTableCraft",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_table_craft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Rune Table"
+    },
+    {
+      "name": "RuneTableBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_table_block",
+      "path": "~/Rune Table"
+    },
+    {
+      "name": "RuneTableRecipeProt",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_table_recipe_prot",
+      "path": "~/Rune Table"
     }
   ],
   "variable_elements": [],
@@ -245,7 +280,8 @@
       "item.auva.upgrade_armor_protection_item": "Protection Rune",
       "item.auva.netherite_upgradable_armor_helmet": "Netherite Upgradable Armor Helmet",
       "item.auva.netherite_upgradable_armor_chestplate": "Netherite Upgradable Armor Body",
-      "key.auva.upgrade_armor_gui_keybind": "Upgrade Armor GUI Keybind"
+      "key.auva.upgrade_armor_gui_keybind": "Upgrade Armor GUI Keybind",
+      "block.auva.rune_table_block": "Rune Table Block"
     }
   },
   "foldersRoot": {

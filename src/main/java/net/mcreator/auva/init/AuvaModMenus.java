@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.mcreator.auva.world.inventory.RuneTableRecipeProtMenu;
 import net.mcreator.auva.world.inventory.RuneTableGUIMenu;
 import net.mcreator.auva.world.inventory.NetherriteUpgradeMenuMenu;
 
@@ -25,6 +26,8 @@ public class AuvaModMenus {
 			(id, inv, extraData) -> new NetherriteUpgradeMenuMenu(id, inv, extraData));
 	public static final MenuType<RuneTableGUIMenu> RUNE_TABLE_GUI = register("rune_table_gui",
 			(id, inv, extraData) -> new RuneTableGUIMenu(id, inv, extraData));
+	public static final MenuType<RuneTableRecipeProtMenu> RUNE_TABLE_RECIPE_PROT = register("rune_table_recipe_prot",
+			(id, inv, extraData) -> new RuneTableRecipeProtMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

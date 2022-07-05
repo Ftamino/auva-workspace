@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.auva.client.gui.RuneTableRecipeProtScreen;
 import net.mcreator.auva.client.gui.RuneTableGUIScreen;
 import net.mcreator.auva.client.gui.NetherriteUpgradeMenuScreen;
 
@@ -21,6 +22,7 @@ public class AuvaModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(AuvaModMenus.NETHERRITE_UPGRADE_MENU, NetherriteUpgradeMenuScreen::new);
 			MenuScreens.register(AuvaModMenus.RUNE_TABLE_GUI, RuneTableGUIScreen::new);
+			MenuScreens.register(AuvaModMenus.RUNE_TABLE_RECIPE_PROT, RuneTableRecipeProtScreen::new);
 		});
 	}
 }

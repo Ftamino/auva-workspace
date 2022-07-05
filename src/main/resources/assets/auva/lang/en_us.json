@@ -6,5 +6,6 @@
   "item.auva.upgrade_armor_protection_item": "Protection Rune",
   "item.auva.netherite_upgradable_armor_helmet": "Netherite Upgradable Armor Helmet",
   "item.auva.netherite_upgradable_armor_chestplate": "Netherite Upgradable Armor Body",
-  "key.auva.upgrade_armor_gui_keybind": "Upgrade Armor GUI Keybind"
+  "key.auva.upgrade_armor_gui_keybind": "Upgrade Armor GUI Keybind",
+  "block.auva.rune_table_block": "Rune Table Block"
 }
