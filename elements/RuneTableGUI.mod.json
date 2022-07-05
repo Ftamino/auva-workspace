@@ -19,6 +19,12 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "RuneTableCraft"
+          },
+          "onStackTransfer": {
+            "name": "RuneTableCraft"
+          },
           "name": "Slot #0",
           "x": 204,
           "y": 8
@@ -33,6 +39,12 @@
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "RuneTableCraft"
+          },
+          "onStackTransfer": {
+            "name": "RuneTableCraft"
+          },
           "name": "Slot #1",
           "x": 258,
           "y": 53
@@ -47,6 +59,12 @@
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "RuneTableCraft"
+          },
+          "onStackTransfer": {
+            "name": "RuneTableCraft"
+          },
           "name": "Slot #2",
           "x": 204,
           "y": 98
@@ -61,6 +79,12 @@
           "id": 3,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "RuneTableCraft"
+          },
+          "onStackTransfer": {
+            "name": "RuneTableCraft"
+          },
           "name": "Slot #3",
           "x": 150,
           "y": 53
