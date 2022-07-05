@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "PERIOD",
+    "keyBindingName": "Upgrade Armor GUI Keybind",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "UpgradeArmorGUIKeybindOnKeyPressed"
+    }
+  }
+}

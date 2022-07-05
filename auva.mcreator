@@ -1,0 +1,288 @@
+{
+  "mod_elements": [
+    {
+      "name": "NetheriteUpgradableArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgradable_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "NetherriteUpgradeMenu",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgrade_menu",
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "UpgradeArmorGUIKeybindOnKeyPressed",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_armor_gui_keybind_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "UpgradeArmorGUIKeybind",
+      "type": "keybind",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_armor_gui_keybind",
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "UpgradeArmorGUIOnButtonProtectionClicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_armor_gui_on_button_protection_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "UpgradeArmorProtectionItem",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_armor_protection_item",
+      "path": "~/Runes"
+    },
+    {
+      "name": "FlyingRune",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_rune",
+      "path": "~/Runes"
+    },
+    {
+      "name": "NetheriteUpgradableArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgradable_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "EquipNetherriteArmor",
+      "type": "particle",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "equip_netherrite_armor"
+    },
+    {
+      "name": "FallProtectionRune",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall_protection_rune",
+      "path": "~/Runes"
+    },
+    {
+      "name": "UpgradeArmorGUIShowProtection",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_armor_gui_show_protection",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "UpgradeArmorGUIShowFlying",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_armor_gui_show_flying",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "UpgradeArmorGUIShowFallProtection",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_armor_gui_show_fall_protection",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "NetheriteUpgradableArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgradable_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RuneTableGUI",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_table_gui",
+      "path": "~/Rune Table"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.auva.flying_rune": "Flying Rune",
+      "item.auva.fall_protection_rune": "Fall Protection Rune",
+      "item.auva.netherite_upgradable_armor_leggings": "Netherite Upgradable Armor Leggings",
+      "item.auva.netherite_upgradable_armor_boots": "Netherite Upgradable Armor Boots",
+      "item.auva.upgrade_armor_protection_item": "Protection Rune",
+      "item.auva.netherite_upgradable_armor_helmet": "Netherite Upgradable Armor Helmet",
+      "item.auva.netherite_upgradable_armor_chestplate": "Netherite Upgradable Armor Body",
+      "key.auva.upgrade_armor_gui_keybind": "Upgrade Armor GUI Keybind"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Runes",
+        "children": []
+      },
+      {
+        "name": "Upgrade GUI",
+        "children": []
+      },
+      {
+        "name": "Rune Table",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "auva",
+    "modName": "Advanced Upgraded Vanilla Armor",
+    "version": "dev-0.0.1",
+    "description": "The best Mod ever",
+    "author": "Ftamino",
+    "websiteURL": "https://ftamino.github.io",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Visit Ftamino on Youtube and Twitch",
+    "modElementsPackage": "net.mcreator.auva",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="auva"
+version="0.0.1"
+displayName="Advanced Upgraded Vanilla Armor"
+credits="Visit Ftamino on Youtube and Twitch"
+displayURL="https://ftamino.github.io"
+authors="Ftamino"
+description='''
+The best Mod ever
+'''
+
+[[dependencies.auva]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
