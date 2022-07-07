@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.auva.init.AuvaModParticleTypes;
 import net.mcreator.auva.init.AuvaModItems;
+import net.mcreator.auva.init.AuvaModFeatures;
 import net.mcreator.auva.init.AuvaModBlocks;
 import net.mcreator.auva.init.AuvaModBlockEntities;
 
@@ -51,6 +52,7 @@ public class AuvaMod {
 		AuvaModItems.REGISTRY.register(bus);
 
 		AuvaModBlockEntities.REGISTRY.register(bus);
+		AuvaModFeatures.REGISTRY.register(bus);
 
 		AuvaModParticleTypes.REGISTRY.register(bus);
 	}

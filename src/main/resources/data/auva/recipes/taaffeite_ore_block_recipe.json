@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "auva:taaffeite"
+    },
+    "1": {
+      "item": "auva:taaffeite"
+    },
+    "2": {
+      "item": "auva:taaffeite"
+    },
+    "3": {
+      "item": "auva:taaffeite"
+    },
+    "4": {
+      "item": "auva:taaffeite"
+    },
+    "5": {
+      "item": "auva:taaffeite"
+    },
+    "6": {
+      "item": "auva:taaffeite"
+    },
+    "7": {
+      "item": "auva:taaffeite"
+    },
+    "8": {
+      "item": "auva:taaffeite"
+    }
+  },
+  "result": {
+    "item": "auva:taaffeite_block",
+    "count": 1
+  }
+}

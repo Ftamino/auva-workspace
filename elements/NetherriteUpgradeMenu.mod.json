@@ -99,6 +99,16 @@
           "x": 205,
           "y": 72
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ghostrune.png",
+          "use1Xscale": false,
+          "name": "ghostrune.png",
+          "x": 188,
+          "y": 119
+        }
       }
     ],
     "gridSettings": {

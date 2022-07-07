@@ -132,5 +132,63 @@ public class RuneTableCraftProcedure {
 				}
 			}
 		}
+		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
+				? ((Slot) _slt.get(0)).getItem()
+				: ItemStack.EMPTY).getItem() == Blocks.BEACON.asItem()) {
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.LINGERING_POTION) {
+				if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
+						.getItem() == Blocks.BREWING_STAND.asItem()) {
+					if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY)
+							.getItem() == Items.LINGERING_POTION) {
+						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+								&& _current.get() instanceof Map _slots) {
+							ItemStack _setstack = new ItemStack(AuvaModItems.GHOST_RUNE.get());
+							_setstack.setCount(1);
+							((Slot) _slots.get(4)).set(_setstack);
+							_player.containerMenu.broadcastChanges();
+						}
+						for (int index2 = 0; index2 < (int) (1000); index2++) {
+							if (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+											&& _current.get() instanceof Map _slots) {
+										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+										if (stack != null)
+											return stack.getCount();
+									}
+									return 0;
+								}
+							}.getAmount(4) == 0) {
+								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+										&& _current.get() instanceof Map _slots) {
+									((Slot) _slots.get(0)).set(ItemStack.EMPTY);
+									_player.containerMenu.broadcastChanges();
+								}
+								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+										&& _current.get() instanceof Map _slots) {
+									((Slot) _slots.get(1)).set(ItemStack.EMPTY);
+									_player.containerMenu.broadcastChanges();
+								}
+								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+										&& _current.get() instanceof Map _slots) {
+									((Slot) _slots.get(2)).set(ItemStack.EMPTY);
+									_player.containerMenu.broadcastChanges();
+								}
+								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+										&& _current.get() instanceof Map _slots) {
+									((Slot) _slots.get(3)).set(ItemStack.EMPTY);
+									_player.containerMenu.broadcastChanges();
+								}
+							}
+						}
+						if (entity instanceof Player _player)
+							_player.closeContainer();
+					}
+				}
+			}
+		}
 	}
 }

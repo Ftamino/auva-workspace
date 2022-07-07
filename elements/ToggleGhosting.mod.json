@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "Toggle Invisibility",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "ToggleGhostingOnKeyPressed"
+    }
+  }
+}

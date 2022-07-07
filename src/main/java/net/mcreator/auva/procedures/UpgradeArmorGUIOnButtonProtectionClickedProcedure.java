@@ -86,6 +86,12 @@ public class UpgradeArmorGUIOnButtonProtectionClickedProcedure {
 					.putString("flying", "true");
 			is_prot_rune_used = 1;
 		}
+		if (AuvaModItems.GHOST_RUNE.get() == (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+				&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem()) {
+			(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag()
+					.putString("invisible_keytrigger", "true");
+			is_prot_rune_used = 1;
+		}
 		if (AuvaModItems.FALL_PROTECTION_RUNE
 				.get() == (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem()) {

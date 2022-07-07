@@ -267,6 +267,183 @@
       "locked_code": false,
       "registry_name": "rune_table_recipe_prot",
       "path": "~/Rune Table"
+    },
+    {
+      "name": "RuneTableRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_table_recipe",
+      "path": "~/Rune Table"
+    },
+    {
+      "name": "GhostRune",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_rune",
+      "path": "~/Runes"
+    },
+    {
+      "name": "ToggleGhostingOnKeyPressed",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_ghosting_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToggleGhosting",
+      "type": "keybind",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_ghosting"
+    },
+    {
+      "name": "UpgradeArmorGUIShowInvisibility",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_armor_gui_show_invisibility",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Upgrade GUI"
+    },
+    {
+      "name": "Taaffeite",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite"
+    },
+    {
+      "name": "TaaffeiteOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite_ore"
+    },
+    {
+      "name": "TaaffeiteBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite_block"
+    },
+    {
+      "name": "TaaffeiteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite_ore_block_recipe"
+    },
+    {
+      "name": "TaaffeiteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite_block_ore_recipe"
+    },
+    {
+      "name": "TaaffeiteItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Rune Table"
+    },
+    {
+      "name": "TaaffeiteFragment",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite_fragment"
+    },
+    {
+      "name": "TaaffeiteOreBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite_ore_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TaaffeiteFragmentsToTaaffeitGem",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffeite_fragments_to_taaffeit_gem"
     }
   ],
   "variable_elements": [],
@@ -274,14 +451,20 @@
   "language_map": {
     "en_us": {
       "item.auva.flying_rune": "Flying Rune",
-      "item.auva.fall_protection_rune": "Fall Protection Rune",
-      "item.auva.netherite_upgradable_armor_leggings": "Netherite Upgradable Armor Leggings",
+      "block.auva.taaffeite_ore": "Taaffeite Ore",
       "item.auva.netherite_upgradable_armor_boots": "Netherite Upgradable Armor Boots",
-      "item.auva.upgrade_armor_protection_item": "Protection Rune",
       "item.auva.netherite_upgradable_armor_helmet": "Netherite Upgradable Armor Helmet",
       "item.auva.netherite_upgradable_armor_chestplate": "Netherite Upgradable Armor Body",
+      "block.auva.taaffeite_block": "Block of Taaffeite",
+      "item.auva.taaffeite": "Taaffeite Gem",
+      "item.auva.fall_protection_rune": "Fall Protection Rune",
+      "item.auva.netherite_upgradable_armor_leggings": "Netherite Upgradable Armor Leggings",
+      "item.auva.upgrade_armor_protection_item": "Protection Rune",
       "key.auva.upgrade_armor_gui_keybind": "Upgrade Armor GUI Keybind",
-      "block.auva.rune_table_block": "Rune Table Block"
+      "item.auva.taaffeite_fragment": "Taaffeite Fragment",
+      "block.auva.rune_table_block": "Rune Table Block",
+      "item.auva.ghost_rune": "Ghost Rune",
+      "key.auva.toggle_ghosting": "Toggle Invisibility"
     }
   },
   "foldersRoot": {

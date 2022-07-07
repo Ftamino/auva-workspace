@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "1": {
+      "item": "minecraft:beacon"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "item": "auva:taaffeite"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "auva:taaffeite"
+    },
+    "6": {
+      "item": "minecraft:netherite_block"
+    },
+    "7": {
+      "item": "minecraft:netherite_block"
+    },
+    "8": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "auva:rune_table_block",
+    "count": 1
+  }
+}

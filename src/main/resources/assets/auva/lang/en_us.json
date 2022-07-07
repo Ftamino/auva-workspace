@@ -1,11 +1,17 @@
 {
   "item.auva.flying_rune": "Flying Rune",
-  "item.auva.fall_protection_rune": "Fall Protection Rune",
-  "item.auva.netherite_upgradable_armor_leggings": "Netherite Upgradable Armor Leggings",
+  "block.auva.taaffeite_ore": "Taaffeite Ore",
   "item.auva.netherite_upgradable_armor_boots": "Netherite Upgradable Armor Boots",
-  "item.auva.upgrade_armor_protection_item": "Protection Rune",
   "item.auva.netherite_upgradable_armor_helmet": "Netherite Upgradable Armor Helmet",
   "item.auva.netherite_upgradable_armor_chestplate": "Netherite Upgradable Armor Body",
+  "block.auva.taaffeite_block": "Block of Taaffeite",
+  "item.auva.taaffeite": "Taaffeite Gem",
+  "item.auva.fall_protection_rune": "Fall Protection Rune",
+  "item.auva.netherite_upgradable_armor_leggings": "Netherite Upgradable Armor Leggings",
+  "item.auva.upgrade_armor_protection_item": "Protection Rune",
   "key.auva.upgrade_armor_gui_keybind": "Upgrade Armor GUI Keybind",
-  "block.auva.rune_table_block": "Rune Table Block"
+  "item.auva.taaffeite_fragment": "Taaffeite Fragment",
+  "block.auva.rune_table_block": "Rune Table Block",
+  "item.auva.ghost_rune": "Ghost Rune",
+  "key.auva.toggle_ghosting": "Toggle Invisibility"
 }
