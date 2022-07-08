@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "auva:taaffite_chainmail"
+  },
+  "result": {
+    "item": "auva:netherrite_upgradable_armor_with_chainmail_chestplate"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "auva:items/netherite_helmet"
+    "layer0": "auva:items/upgradable_netherite_helmet"
   }
 }

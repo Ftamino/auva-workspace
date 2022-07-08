@@ -14,8 +14,13 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.auva.item.UpgradeArmorProtectionItemItem;
+import net.mcreator.auva.item.TaaffiteChainmailItem;
 import net.mcreator.auva.item.TaaffeiteItem;
 import net.mcreator.auva.item.TaaffeiteFragmentItem;
+import net.mcreator.auva.item.NetherriteUpgradableArmorWithChainmailHelmetItem;
+import net.mcreator.auva.item.NetherriteUpgradableArmorWithChainmailHelemtItem;
+import net.mcreator.auva.item.NetherriteUpgradableArmorWithChainmailChestplateItem;
+import net.mcreator.auva.item.NetherriteUpgradableArmorWithChainmailBootsItem;
 import net.mcreator.auva.item.NetheriteUpgradableArmorItem;
 import net.mcreator.auva.item.GhostRuneItem;
 import net.mcreator.auva.item.FlyingRuneItem;
@@ -42,6 +47,15 @@ public class AuvaModItems {
 	public static final RegistryObject<Item> TAAFFEITE_ORE = block(AuvaModBlocks.TAAFFEITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TAAFFEITE_BLOCK = block(AuvaModBlocks.TAAFFEITE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TAAFFEITE_FRAGMENT = REGISTRY.register("taaffeite_fragment", () -> new TaaffeiteFragmentItem());
+	public static final RegistryObject<Item> TAAFFITE_CHAINMAIL = REGISTRY.register("taaffite_chainmail", () -> new TaaffiteChainmailItem());
+	public static final RegistryObject<Item> NETHERRITE_UPGRADABLE_ARMOR_WITH_CHAINMAIL_HELEMT = REGISTRY
+			.register("netherrite_upgradable_armor_with_chainmail_helemt", () -> new NetherriteUpgradableArmorWithChainmailHelemtItem());
+	public static final RegistryObject<Item> NETHERRITE_UPGRADABLE_ARMOR_WITH_CHAINMAIL_CHESTPLATE = REGISTRY
+			.register("netherrite_upgradable_armor_with_chainmail_chestplate", () -> new NetherriteUpgradableArmorWithChainmailChestplateItem());
+	public static final RegistryObject<Item> NETHERRITE_UPGRADABLE_ARMOR_WITH_CHAINMAIL_BOOTS = REGISTRY
+			.register("netherrite_upgradable_armor_with_chainmail_boots", () -> new NetherriteUpgradableArmorWithChainmailBootsItem());
+	public static final RegistryObject<Item> NETHERRITE_UPGRADABLE_ARMOR_WITH_CHAINMAIL_HELMET = REGISTRY
+			.register("netherrite_upgradable_armor_with_chainmail_helmet", () -> new NetherriteUpgradableArmorWithChainmailHelmetItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

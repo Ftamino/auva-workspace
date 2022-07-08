@@ -444,22 +444,139 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "taaffeite_fragments_to_taaffeit_gem"
+    },
+    {
+      "name": "TaaffiteChainmail",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffite_chainmail"
+    },
+    {
+      "name": "TaaffiteChainmailRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taaffite_chainmail_recipe"
+    },
+    {
+      "name": "NetherriteUpgradableArmorWithChainmailHelemt",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_with_chainmail_helemt"
+    },
+    {
+      "name": "NetherriteUpgradableArmorCraftHelmet",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_craft_helmet"
+    },
+    {
+      "name": "NetherriteUpgradableArmorWithChainmailChestplate",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_with_chainmail_chestplate"
+    },
+    {
+      "name": "NetherriteUpgradableArmorCraftChestplate",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_craft_chestplate"
+    },
+    {
+      "name": "NetherriteUpgradableArmorWithChainmailBoots",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_with_chainmail_boots"
+    },
+    {
+      "name": "NetherriteUpgradableArmorCraftBoots",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_craft_boots"
+    },
+    {
+      "name": "NetherriteUpgradableArmorWithChainmailHelmet",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_with_chainmail_helmet"
+    },
+    {
+      "name": "NetherriteUpgradableArmorCraftLeggins",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_craft_leggins"
+    },
+    {
+      "name": "NetherriteUpgradableArmorHelemtCraft",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_helemt_craft"
+    },
+    {
+      "name": "NetherriteUpgradableArmorChestplate",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_chestplate"
+    },
+    {
+      "name": "NetherriteUpgradableArmorLeggins",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_leggins"
+    },
+    {
+      "name": "NetherriteUpgradableArmorBoots",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrite_upgradable_armor_boots"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.auva.flying_rune": "Flying Rune",
       "block.auva.taaffeite_ore": "Taaffeite Ore",
+      "item.auva.flying_rune": "Flying Rune",
+      "item.auva.netherrite_upgradable_armor_with_chainmail_helmet": "Netherrite Chainmail Leggins",
       "item.auva.netherite_upgradable_armor_boots": "Netherite Upgradable Armor Boots",
       "item.auva.netherite_upgradable_armor_helmet": "Netherite Upgradable Armor Helmet",
       "item.auva.netherite_upgradable_armor_chestplate": "Netherite Upgradable Armor Body",
       "block.auva.taaffeite_block": "Block of Taaffeite",
+      "item.auva.netherrite_upgradable_armor_with_chainmail_chestplate": "Netherrite Chainmail Chestplate",
       "item.auva.taaffeite": "Taaffeite Gem",
       "item.auva.fall_protection_rune": "Fall Protection Rune",
+      "item.auva.taaffite_chainmail": "Taaffite Chainmail Armor Piece",
       "item.auva.netherite_upgradable_armor_leggings": "Netherite Upgradable Armor Leggings",
+      "item.auva.netherrite_upgradable_armor_with_chainmail_helemt": "Netherrite Chainmail Helemt",
       "item.auva.upgrade_armor_protection_item": "Protection Rune",
+      "item.auva.netherrite_upgradable_armor_with_chainmail_boots": "Netherrite Chainmail Boots",
       "key.auva.upgrade_armor_gui_keybind": "Upgrade Armor GUI Keybind",
       "item.auva.taaffeite_fragment": "Taaffeite Fragment",
       "block.auva.rune_table_block": "Rune Table Block",
@@ -494,6 +611,7 @@
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "upgradable_netherite_helmet",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

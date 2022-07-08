@@ -5,10 +5,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.auva.world.inventory.RuneTableGUIMenu;
@@ -86,7 +84,5 @@ public class RuneTableGUIScreen extends AbstractContainerScreen<RuneTableGUIMenu
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 144, this.topPos + 93, 51, 20, new TextComponent("Craft"), e -> {
-		}));
 	}
 }

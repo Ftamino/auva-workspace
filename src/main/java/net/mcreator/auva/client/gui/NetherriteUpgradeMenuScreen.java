@@ -13,6 +13,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.auva.world.inventory.NetherriteUpgradeMenuMenu;
 import net.mcreator.auva.procedures.UpgradeArmorGUIShowProtectionProcedure;
+import net.mcreator.auva.procedures.UpgradeArmorGUIShowInvisibilityProcedure;
 import net.mcreator.auva.procedures.UpgradeArmorGUIShowFlyingProcedure;
 import net.mcreator.auva.procedures.UpgradeArmorGUIShowFallProtectionProcedure;
 import net.mcreator.auva.network.NetherriteUpgradeMenuButtonMessage;
@@ -72,9 +73,10 @@ public class NetherriteUpgradeMenuScreen extends AbstractContainerScreen<Netherr
 		RenderSystem.setShaderTexture(0, new ResourceLocation("auva:textures/banner_pattern_outline.png"));
 		this.blit(ms, this.leftPos + 79, this.topPos + 54, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("auva:textures/ghostrune.png"));
-		this.blit(ms, this.leftPos + 62, this.topPos + 101, 0, 0, 16, 16, 16, 16);
-
+		if (UpgradeArmorGUIShowInvisibilityProcedure.execute(entity)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("auva:textures/ghostrune.png"));
+			this.blit(ms, this.leftPos + 62, this.topPos + 101, 0, 0, 16, 16, 16, 16);
+		}
 		RenderSystem.disableBlend();
 	}
 

@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "netherite_helmet",
+    "textureHelmet": "upgradable_netherite_helmet",
     "enableBody": true,
-    "textureBody": "netherite_chestplate",
+    "textureBody": "upgradable_netherrite_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "netherite_leggings",
+    "textureLeggings": "upgradable_netherite_leggins",
     "enableBoots": true,
-    "textureBoots": "netherite_boots",
+    "textureBoots": "upgradablen_netherrit_boots",
     "onHelmetTick": {
       "name": "NetheriteUpgradableArmorHelmetTickEvent"
     },

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "auva:taaffeite_block"
+    },
+    "3": {
+      "item": "auva:taaffeite_block"
+    },
+    "4": {
+      "item": "auva:netherrite_upgradable_armor_with_chainmail_chestplate"
+    },
+    "5": {
+      "item": "auva:taaffeite_block"
+    },
+    "7": {
+      "item": "auva:taaffeite_block"
+    }
+  },
+  "result": {
+    "item": "auva:netherite_upgradable_armor_chestplate",
+    "count": 1
+  }
+}

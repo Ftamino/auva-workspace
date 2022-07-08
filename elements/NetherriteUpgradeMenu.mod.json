@@ -105,6 +105,9 @@
         "data": {
           "image": "ghostrune.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "UpgradeArmorGUIShowInvisibility"
+          },
           "name": "ghostrune.png",
           "x": 188,
           "y": 119

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "auva:blocks/taaffeite_ore",
-    "particle": "auva:blocks/taaffeite_ore"
+    "all": "auva:blocks/nichts",
+    "particle": "auva:blocks/nichts"
   }
 }
